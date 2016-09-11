@@ -45,5 +45,4 @@ public class PasswordValidator implements FieldValidator {
 	public String getResultDescription() {
 		return result;
 	}
-
 }
