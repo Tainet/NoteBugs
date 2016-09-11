@@ -1,0 +1,18 @@
+<Context>
+	<Resource
+    name="jdbc/NoteBug"
+    auth="Container"
+    type="javax.sql.DataSource"
+    maxActive="100"
+    maxIdle="30"
+    maxWait="10000"
+    removeAbandoned="true"
+    removeAbandonedTimeout="30"
+    logAbandoned="true"
+    autoCommit="true"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost/notebug"
+    username="username"
+    password="password"
+    />
+</Context>
